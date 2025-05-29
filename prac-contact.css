@@ -1,0 +1,35 @@
+.contactContainer {
+    max-width: 120rem;
+    margin: auto;
+  }
+
+.contactBody {
+   
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+.contactBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contactBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+
+.contactBox figure img{
+    height: 40px;
+  }
+
+.tableBody{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0rem 2rem;
+    gap: 1rem;
+  }

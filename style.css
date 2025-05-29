@@ -1,0 +1,567 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-wrap: pretty;
+    /* border: 1px solid blue; */
+}
+    
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior:smooth;
+}
+
+body{
+    background-color:whi;
+    line-height: 1.5;
+    font-size: 1.6rem;
+    -webkit-font-smoothing:antialiased;
+    font-optical-sizing: auto;
+}
+
+/* SCROLL BAR CODE STARTS */
+
+/* Width and HEight of Scroll Bar */
+
+::-webkit-scrollbar{
+    width: 15px;    /* vertical scroll bar */
+    height: 10px;   /* Horizondal scroll bar */
+}
+
+/* Track (Background of ScrollBar) */
+
+::-webkit-scrollbar-track{
+    background: #e3e4e6;
+    border-radius: 5px;
+}
+
+/* Scrollbar thumb (the draggable part) */
+
+::-webkit-scrollbar-thumb{
+    background: #cececf;
+    border-radius: 5px;
+}
+
+/* On hover */
+
+::-webkit-scrollbar-thumb:hover{
+    background:#b9b9ba;
+}
+
+/* SCROLL BAR CODE ENDS */
+
+h1,
+h2,
+h3,
+h4,
+h6{
+    text-wrap: balance;
+}
+
+input,
+textarea,
+button{
+    font-family: inherit;
+}
+
+img,
+picture,
+video,
+canvas,
+svg{
+    display: block;
+    max-width: 100%;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+:root {
+  --primaryColor: #be9c79;
+  --secondaryColor: #666666;
+  --darkColor: #333333;
+  --lightColor: #ffffff;
+  --regularFont: 1.5rem;
+  --headingFont: 2.5rem;
+  --ffPrimary: "Nunito Sans", serif;
+  --ffSecondary: "Merienda", serif;
+}
+
+/* PROJECT STANDARD CLASSES STARTS */
+
+.componentSpacing{
+    padding: 3rem 0rem;
+}
+
+.screenSize{
+    max-width: 1200px;
+    margin: auto;   
+}
+
+.screenSize-2{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.screenSize-3{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.grid-1{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0rem 2rem;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0rem 2rem;
+  /* column-gap: 1rem; */
+  /* row-gap: 1rem; */
+  gap: 1rem;
+}
+
+ .grid-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* column-gap: 1rem; */
+  /* row-gap: 1rem; */
+  gap: 1rem;
+  padding: 0rem 2rem;
+}
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* column-gap: 1rem; */
+  /* row-gap: 1rem; */
+  gap: 1rem;
+  padding: 0rem 2rem;
+}
+
+.dflex {
+  display: flex; /* without this wont work */
+  align-items: center; /* top & bottom Alignment */
+  justify-content: center; /* left & right Alignment */
+}
+
+.dflex-col {
+  display: flex;
+  flex-direction: column; /* makes top to bottom align */
+  align-items: center; /* Behaves like a justify-content */
+  justify-content: center; /* Behaves like a align-items */
+  text-align: center;
+}
+
+h2{
+    font-size: 40px;
+    font-family: "Merienda", serif;
+    color: #212529;
+    font-weight: 850;
+}
+
+
+
+p{
+    font-family: "Nunito Sans", serif;
+    font-size: 15px;
+}
+
+/* project standard classes Ends */
+
+/* Default code Ends here */
+
+/* :::PARENT CONTAINER Code Starts here::: */
+
+header{
+    width: 100%;
+    height: auto;
+}
+
+main{
+    width: 100%;
+    height: auto;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+}
+
+/* :::PARENT CONTAINER Code ends here::: */
+
+/* header code starts here */
+
+/* :::HEADER Code Starts hereE::: */
+
+/* NavBar code */
+
+.navBar{
+  /* position: fixed; */
+  /* background-color: white; */
+  /* width: 100%; */
+}
+
+  .navBody {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-right: 20px;
+    padding: 25px; 
+  }
+  
+  .navImgBlock {
+    padding-left: 40px;
+  }
+  
+  .navImgBox {
+    width: 50px; 
+  }
+  
+  .navBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     }
+ 
+  .navBox ul li a {
+    font-family: "Nunito Sans", serif;
+     padding: 1rem;
+     color: #343a40;
+     font-size: 20px;
+  
+  }
+
+  /* Toggle */
+
+  .navBox #iconToggle{
+    cursor: pointer;
+    display: none;
+  }
+  
+  .navBox .hamburgerIcon{
+    color: #002239;
+    font-size: 2rem;
+    border: 2px solid #002239;
+    padding: 2.5px 7.5px 1px;
+    border-radius: 2.5px;
+    display: none;
+  }
+/* NavBar code */
+
+/* Hero Section code */
+
+.hero {
+    padding:32rem 0rem;
+    background: linear-gradient(90deg, white, transparent 70%), url(./assets/images/home-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+  }
+  
+  .heroBody {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .heroBox h1{
+      font-size: 70px;
+      font-family: "Merienda", serif;
+      color: #212529;
+      font-weight: 850;
+      
+  }
+  
+  .heroBox button{
+       color:white;
+      font-family: "Nunito Sans", serif;
+      background-color: #BE9C79;
+      padding: 10px 30px;
+      border: none;
+      font-size: 20px;
+      margin: 20px;
+  }
+/* Hero Section code */
+/* :::HEADER Code Ends here::: */
+
+/* :::MAIN Code Starts here::: */
+
+/* Our Menu code */
+  
+  .ourMenuBody {
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+  }
+  
+   .menuImgBox figure{
+    padding: 15px;
+   }
+
+   .menuBox h2{
+      font-size: 40px;
+      font-family: "Merienda", serif;
+      color: #212529;
+      font-weight: 900;
+   }
+  
+   .menuBox button{
+       margin-top: 20px;
+       color:white;
+      font-family: "Nunito Sans", serif;
+      background-color: #BE9C79;
+      padding: 10px 30px;
+      border: none;
+      font-size: 20px;
+   }
+/* Our Menu code */
+
+/* Facility code */
+
+    .facilitiesBody {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    
+    .facilitiesBox figure img{
+      height: 40px;
+    }
+    
+    .cardHeaderFace{
+      padding: 10px;
+    }
+    
+    .cardMainFace h3{
+      font-weight: 500;
+      font-family: "Nunito Sans", serif;
+      font-size: 20px;
+      padding: 10px;
+      
+    }
+    
+    .cardFooterFace{
+      font-family: "Nunito Sans", serif;
+      font-size: 15px;
+     word-spacing: 10PX;
+    }
+/* Facility code */
+
+/* Popular code */
+
+  .popularBody {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+   
+  .popularBox figure img{
+      height: 40px;
+  }
+
+  .loveBlock{
+    padding: 10px;
+  }
+  
+  .loveBox h3{
+      text-align: center;
+      font-family: "Nunito Sans", serif;
+      font-weight:400;
+  }
+  
+  .capBlock{
+    padding: 10px;
+  }
+    
+  .capBox h3{
+      text-align: center;
+      font-family: "Nunito Sans", serif;
+      font-weight:400;
+  }
+  
+  .mochaBlock{
+    padding: 10px;
+  }
+  
+   .mochaBox h3{
+      text-align: center;
+      font-family: "Nunito Sans", serif;
+      font-weight:400;
+  }
+  
+  .frapBlock{
+    padding: 10px;
+  }
+  
+  .frapBox h3{
+      text-align: center;
+      font-family: "Nunito Sans", serif;
+      font-weight:400;
+  }
+  
+  .blackBlock{
+    padding: 10px;
+  }
+    
+  .blackBox h3{
+      text-align: center;
+      font-family: "Nunito Sans", serif;
+      font-weight:400;
+  }
+  
+  .heartBlock{
+    padding: 10px;  
+  }
+    
+  .heartBox h3{
+      text-align: center;
+      font-family: "Nunito Sans", serif;
+      font-weight:400;
+  }
+  
+/* Popular code */
+
+/* Gallery code */
+
+  .galleryBody {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+    
+  .galleryBox figure img{
+      height: 40px;
+  }
+   
+  .gryImgBody{
+      padding: 10px;
+  }
+  
+  .gryImgBlock{
+      padding: 10px;
+  }
+  
+/* Gallery code */
+
+/* Team code */
+
+  .teamBody {
+    display: grid;
+    grid-template-columns:1fr;
+  }
+  
+   .teamBox figure img{
+      height: 40px;
+   }
+  
+  .teamImgBox h3{
+      text-align: center;
+      font-family: "Nunito Sans", serif;
+      font-weight:400;
+  }
+
+  .teamImgBlock{
+    padding: 10px;
+}
+  
+/* Team code */
+/* :::MAIN Code Ends here::: */
+
+/* :::FOOTER Code Starts here::: */
+/* Contact code */
+
+  .contactBody {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+   
+  .contactBox figure img{
+      height: 40px;
+  }
+  
+  .tableBody{
+      padding: 30px;
+  }
+  
+/* Contact code */
+
+/* Contact Icons code */
+
+  .iconsBody {
+    border-bottom: 2px solid black; 
+    padding: 40px;
+  }
+  
+  
+
+  .cardHeaderIcons i{
+    background-color: #be9c79;
+    font-size: 40px;
+    border-radius: 50%;
+    padding: 15px;
+    color: white;
+    
+  }
+  
+  .cardMainIcons h3{
+      text-align: center;
+      font-family: "Nunito Sans", serif;
+      font-weight:400;
+      font-size: 20px;
+      padding: 10px;
+  }
+    
+  .cardFooterIcons p{
+      text-align: center;
+      font-family: "Nunito Sans", serif;
+      font-weight:400;
+      font-size: 20px;
+  }
+
+  .cardHeaderIconsLoc{
+    background-color: #be9c79;
+    font-size: 50px;
+    border-radius: 75%;
+    padding: 0px 17px;
+    color: white;
+  }
+    
+  .copyBox p{
+      text-align: center;
+      font-family: "Nunito Sans", serif;
+      font-weight:400;
+      font-size: 20px;
+  }
+  
+  .copyBox span{
+      color: #be9c79;
+  }
+
+  .copyBody{
+    /* background-color: aqua; */
+    padding: 20px;
+  }
+  
+/* Contact Icons code */
+/* :::FOOTER Code Ends here::: */
+
+
+

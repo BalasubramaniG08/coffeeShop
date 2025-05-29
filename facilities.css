@@ -1,0 +1,114 @@
+
+
+/* Facility code */
+
+
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+
+/* Step1: parentContainer */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: #649db1;
+} */
+
+/* Step2: component */
+
+
+.facilities {
+/}
+
+/* Step3: componentContainer */
+.facilitiesContainer {
+/}
+
+/* Step4: row */
+.facilitiesBody {
+   */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* background-color: chocolate; */
+  padding-left: 400px;
+}
+
+/* Step5: column1 */
+.facilitiesBlock {
+/  
+}
+
+/* Step6: subColumn */
+.facilitiesBox {
+  /* background-color: #c8ff00; */
+ 
+}
+/* Step7: contentContainer */
+.facilitiesBox figure{
+
+}
+
+.facilitiesBox figure img{
+  height: 40px;
+}
+
+/* Step4: row-2 */
+.facImgBody{
+  
+}
+
+.varietyBlock{
+
+}
+
+.varietyBox{
+
+}
+
+.beanBlock{
+
+}
+
+.beanBox{
+
+}
+
+.sweetBlock{
+
+}
+
+.sweetBox{
+
+}
+
+.readyBlock{
+
+}
+
+.readyBox{
+
+}
+
+.cardHeaderFace{
+ 
+  padding: 10px;
+}
+
+.cardMainFace h3{
+  font-weight: 500;
+  font-family: "Nunito Sans", serif;
+  font-size: 20px;
+  padding: 10px;
+  
+}
+
+.cardFooterFace{
+  font-family: "Nunito Sans", serif;
+  font-size: 15px;
+ word-spacing: 10PX;
+}

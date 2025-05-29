@@ -1,0 +1,68 @@
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+
+/* Step1: parentContainer */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: #649db1;
+} */
+
+/* Step2: component */
+.gallery {
+  /* background-color: #467386; */
+}
+
+/* Step3: componentContainer */
+.galleryContainer {
+  /* background-color: #649db1; */
+}
+
+/* Step4: row */
+.galleryBody {
+   */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* background-color: chocolate; */
+  padding-left: 400px;
+}
+
+/* Step5: column1 */
+.galleryBlock {
+  /* background-color: #48defc; */
+  
+}
+
+/* Step6: subColumn */
+.galleryBox {
+  /* background-color: #c8ff00; */
+ 
+}
+/* Step7: contentContainer */
+
+.galleryBox figure img{
+    height: 40px;
+}
+ 
+.gryImgBody{
+    /* background-color:chocolate; */
+    padding: 10px;
+}
+
+.gryImgBlock{
+    padding: 10px;
+}
+
+.gryImgBox{
+
+}
+
+.gryImgBox figure img{
+
+}

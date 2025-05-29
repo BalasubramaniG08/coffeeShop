@@ -1,0 +1,76 @@
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+
+/* Step1: parentContainer */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: #649db1;
+} */
+
+/* Step2: component */
+.contact {
+  /* background-color: #467386; */
+  padding: 3rem 0rem;
+}
+
+/* Step3: componentContainer */
+.contactContainer {
+  /* background-color: #649db1; */
+  max-width: 12rem;
+  margin: auto;
+}
+
+/* Step4: row */
+.contactBody {
+   
+  display: grid;
+  grid-template-columns: 1fr;
+  /* background-color: chocolate; */
+}
+
+/* Step5: column1 */
+.contactBlock {
+  /* background-color: #48defc; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Step6: subColumn */
+.contactBox {
+  /* background-color: #c8ff00; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* flex-direction: column; */
+ 
+}
+/* Step7: contentContainer */
+ 
+.contactBox figure img{
+    height: 40px;
+}
+
+.tableBody{
+    padding: 30px;
+}
+
+.conImgBlock{
+
+}
+
+.conImgBox{
+
+}
+
+.conImgBox figure img{
+
+}

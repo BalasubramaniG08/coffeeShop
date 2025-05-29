@@ -1,0 +1,117 @@
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+
+/* Step1: parentContainer */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: #649db1;
+} */
+
+/* Step2: component */
+.icons{
+  /* background-color: #467386; */
+}
+
+/* Step3: componentContainer */
+.iconsContainer {
+  /* background-color: #649db1; */
+  
+}
+
+/* Step4: row */
+.iconsBody {
+  border-bottom: 2px solid black;
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr; */
+  padding: 40px;
+  /* background-color: aqua; */
+  
+}
+
+/* Step5: column1 */
+.iconsBlock {
+  /* background-color: #48defc; */
+  padding:  50px 50px;
+}
+
+/* Step6: subColumn */
+.cardBoxIcons {
+  /* background-color: #c8ff00; */
+  /* margin: 40px; */
+ 
+}
+/* Step7: contentContainer */
+ 
+.cardHeaderIcons{
+   
+}
+
+.cardHeaderIcons i{
+   background-color: #be9c79;
+  font-size: 40px;
+  border-radius: 50%;
+  padding: 20px;
+  color: white;
+}
+
+.cardMainIcons{
+    
+}
+
+.cardMainIcons h3{
+    text-align: center;
+    font-family: "Nunito Sans", serif;
+    font-weight:400;
+    font-size: 20px;
+}
+
+.cardFooterIcons{
+
+}
+
+.cardFooterIcons p{
+    text-align: center;
+    font-family: "Nunito Sans", serif;
+    font-weight:400;
+    font-size: 20px;
+}
+
+.cardHeaderIconsLoc{
+  background-color: #be9c79;
+  font-size: 50px;
+  border-radius: 70%;
+  padding: 4px 22px;
+  color: white;
+}
+
+.copyBody{
+  /* background-color: aqua; */
+  padding: 20px;
+}
+
+.copyBlock{
+
+}
+
+.copyBox{
+
+}
+
+.copyBox p{
+    text-align: center;
+    font-family: "Nunito Sans", serif;
+    font-weight:400;
+    font-size: 20px;
+}
+
+.copyBox span{
+    color: #be9c79;
+}
+

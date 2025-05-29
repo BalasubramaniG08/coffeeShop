@@ -1,0 +1,71 @@
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+
+/* Step1: parentContainer */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: #649db1;
+} */
+
+/* Step2: component */
+.team {
+  /* background-color: #467386; */
+}
+
+/* Step3: componentContainer */
+.teamContainer {
+  /* background-color: #649db1; */
+}
+
+/* Step4: row */
+.teamBody {
+   */
+  display: grid;
+  grid-template-columns:1fr;
+  /* background-color: chocolate; */
+}
+
+/* Step5: column1 */
+.teamBlock {
+  /* background-color: #48defc; */
+  
+}
+
+/* Step6: subColumn */
+.teamBox {
+  /* background-color: #c8ff00; */
+ 
+}
+/* Step7: contentContainer */
+ .teamBox figure img{
+    height: 40px;
+ }
+.teamImgBody{
+    
+}
+
+.teamImgBlock{
+    padding: 10px;
+}
+
+.teamImgBox{
+
+}
+
+.teamImgBox figure img{
+    
+}
+
+.teamImgBox h3{
+    text-align: center;
+    font-family: "Nunito Sans", serif;
+    font-weight:400;
+}
+}

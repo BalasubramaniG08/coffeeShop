@@ -1,0 +1,90 @@
+
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+
+/* Step1: parentContainer */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: #649db1;
+} */
+
+/* Step2: component */
+.navBar {
+  /* background-color: #467386; */
+  box-shadow: 10px;
+  box-shadow: #343a40;
+}
+
+/* Step3: componentContainer */
+.navContainer {
+  /* background-color: #649db1; */
+}
+
+/* Step4: row */
+.navBody {
+   */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-right: 20px;
+  padding: 25px; 
+}
+
+/* Step5: column1 */
+.navImgBlock {
+  /* background-color: #48defc; */
+  padding-left: 40px;
+}
+
+/* Step6: subColumn */
+.navImgBox {
+  /* background-color: #c8ff00; */
+  width: 50px; 
+}
+/* Step7: contentContainer */
+.navImgBox figure {
+  /* background-color: #c8ff00; */
+}
+
+.navImgBox figure img {
+  /* background-color: #c8ff00; */
+  
+}
+
+/* Step5: column2 */
+.navBlock {
+  /* background-color: #48defc; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+}
+
+/* Step6: subColumn */
+.navBox {
+  /* background-color: #c8ff00; */
+}
+
+/* Step7: contentContainer */
+.navBox ul {
+  /* background-color: #0dbc9d; */
+}
+
+.navBox ul li {
+  /* background-color: #0dbc9d; */
+}
+
+.navBox ul li a {
+  /* background-color: #0dbc9d; */
+  font-family: "Nunito Sans", serif;
+   padding: 1rem;
+   color: #343a40;
+   font-size: 20px;
+
+}

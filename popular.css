@@ -1,0 +1,144 @@
+
+
+/* Popular code */
+
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+
+/* Step1: parentContainer */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: #649db1;
+} */
+
+/* Step2: component */
+.popular{
+  /* background-color: #467386; */
+}
+
+/* Step3: componentContainer */
+.popularContainer {
+  /* background-color: #649db1; */
+  
+}
+/* Step4: row */
+.popularBody {
+   */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* background-color: chocolate; */
+  padding-left: 320px;
+}
+
+/* Step5: column1 */
+.popularBlock {
+  /* background-color: #48defc; */
+  
+}
+
+/* Step6: subColumn */
+.popularBox {
+  /* background-color: #c8ff00; */
+ 
+}
+/* Step7: contentContainer */
+ 
+.popularBox figure img{
+    height: 40px;
+    
+}
+
+.popImgBody{
+    
+}
+
+.loveBlock{
+  padding: 10px;
+}
+
+.loveBox{
+
+}
+
+.loveBox h3{
+    text-align: center;
+    font-family: "Nunito Sans", serif;
+    font-weight:400;
+}
+
+.capBlock{
+  padding: 10px;
+}
+
+.capBox{
+
+}
+
+.capBox h3{
+    text-align: center;
+    font-family: "Nunito Sans", serif;
+    font-weight:400;
+}
+
+.mochaBlock{
+  padding: 10px;
+}
+
+.mochaBox{
+
+}
+
+ .mochaBox h3{
+    text-align: center;
+    font-family: "Nunito Sans", serif;
+    font-weight:400;
+}
+
+.frapBlock{
+  padding: 10px;
+}
+
+.frapBox{
+
+}
+
+.frapBox h3{
+    text-align: center;
+    font-family: "Nunito Sans", serif;
+    font-weight:400;
+}
+
+.blackBlock{
+  padding: 10px;
+}
+
+.blackBox{
+
+}
+
+.blackBox h3{
+    text-align: center;
+    font-family: "Nunito Sans", serif;
+    font-weight:400;
+}
+
+.heartBlock{
+  padding: 10px;  
+}
+
+.heartBox{
+
+}
+
+.heartBox h3{
+    text-align: center;
+    font-family: "Nunito Sans", serif;
+    font-weight:400;
+}

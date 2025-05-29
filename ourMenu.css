@@ -1,0 +1,79 @@
+
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+
+/* Step1: parentContainer */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: #649db1;
+} */
+
+/* Step2: component */
+.ourMenu {
+  /* background-color: #467386; */
+}
+
+/* Step3: componentContainer */
+.ourMenuContainer {
+  /* background-color: #649db1; */
+}
+
+/* Step4: row */
+.ourMenuBody {
+   */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* background-color: chocolate; */
+ 
+}
+
+/* Step5: column1 */
+.menuImgBlock {
+  /* background-color: #48defc; */
+  
+}
+
+/* Step6: subColumn */
+.menuImgBox {
+  /* background-color: #c8ff00; */
+ 
+}
+/* Step7: contentContainer */
+ .menuImgBox figure{
+  padding: 15px;
+ }
+
+ /* Step5: column2 */
+ .menuBlock{
+
+ }
+
+ /* Step6: subColumn */
+ .menuBox{
+
+ }
+
+ /* Step7: contentContainer */
+ .menuBox h2{
+    font-size: 40px;
+    font-family: "Merienda", serif;
+    color: #212529;
+    font-weight: 900;
+ }
+
+ .menuBox button{
+     margin-top: 20px;
+     color:white;
+    font-family: "Nunito Sans", serif;
+    background-color: #BE9C79;
+    padding: 10px 30px;
+    border: none;
+    font-size: 20px;
+ }

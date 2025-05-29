@@ -1,0 +1,31 @@
+.icons{
+    padding: 3rem 0rem;
+}
+
+.iconsContainer{
+    max-width: 120rem;
+    margin: auto;
+}
+
+/* .iconsBody{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0rem 2rem;
+    gap: 1rem;
+} */
+
+.cardBoxIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.cardHeaderIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}

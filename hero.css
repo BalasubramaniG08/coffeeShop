@@ -1,0 +1,73 @@
+/* Hero Section code */
+
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+
+/* Step1: parentContainer */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: #649db1;
+} */
+
+/* Step2: component */
+.hero {
+  /* background-color: #467386; */
+  background: linear-gradient(90deg, white, transparent 70%), url(./assets/images/home-bg.jpg);
+  padding:30rem 0rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+}
+
+/* Step3: componentContainer */
+.heroContainer {
+  /* background-color: #649db1; */
+}
+
+/* Step4: row */
+.heroBody {
+  /* background-color: #88b8cc; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* Step5: column1 */
+.heroBlock {
+  /* background-color: #48defc; */
+  
+}
+
+/* Step6: subColumn */
+.heroBox {
+  /* background-color: #c8ff00; */
+
+}
+
+/* Step7: contentContainer */
+.heroBox h1{
+    font-size: 70px;
+    font-family: "Merienda", serif;
+    color: #212529;
+    font-weight: 900;
+    
+}
+
+
+
+.heroBox button{
+     color:white;
+    font-family: "Nunito Sans", serif;
+    background-color: #BE9C79;
+    padding: 10px 30px;
+    border: none;
+    font-size: 20px;
+    margin: 20px;
+}
