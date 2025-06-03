@@ -4,7 +4,7 @@
 
 @media (max-width: 576px) {
   body {
-    padding: 15px;
+    /* padding: 15px; */
   }
 
   .grid-1,
@@ -28,6 +28,10 @@
     font-size: 30px;
   }
 
+  .navBody{
+    padding: 20px;
+  }
+
   .heroBox {
     padding-left: 4rem;
   }
@@ -46,13 +50,22 @@
     text-align: center;
   }
 
+  .tableBody{
+    grid-template-columns: 1fr;
+  }
+
+  .navBox ul li {
+    margin-bottom: 10px;
+    /* padding-bottom: 3.5rem; */
+  }
+
 
   /* HamburgerIcon */
 
   .navBox .hamburgerIcon{
     display: block;
     position: absolute;
-    top:2rem;
+    top: 3rem;
     right: 5rem;
     cursor: pointer;
   }
@@ -115,6 +128,14 @@
 
   .teamImgBody {
     padding: 8rem;
+  }
+
+  .contactContainer{
+    grid-template-columns: 1fr;
+  }
+
+  .link li a{
+    padding-top: 50px;
   }
 
 }

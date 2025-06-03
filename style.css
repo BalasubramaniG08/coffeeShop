@@ -257,9 +257,9 @@ footer{
   }
   
   .navBox .hamburgerIcon{
-    color: #002239;
+    color: #6b7a84;
     font-size: 2rem;
-    border: 2px solid #002239;
+    border: 1px solid #97a8b3;
     padding: 2.5px 7.5px 1px;
     border-radius: 2.5px;
     display: none;
@@ -489,7 +489,7 @@ footer{
 
   .contactBody {
     display: grid;
-    grid-template-columns: 1fr;
+    /* grid-template-columns: 1fr; */
   }
   
    
@@ -499,6 +499,12 @@ footer{
   
   .tableBody{
       padding: 30px;
+  }
+
+  .tableBody{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* background-color: #002239; */
   }
   
 /* Contact code */
@@ -510,7 +516,10 @@ footer{
     padding: 40px;
   }
   
-  
+  .iconsContainer{
+    max-width: 120rem;
+    margin: auto;
+}
 
   .cardHeaderIcons i{
     background-color: #be9c79;
@@ -543,12 +552,44 @@ footer{
     padding: 0px 17px;
     color: white;
   }
+
+  .icons{
+    padding: 3rem 0rem;
+}
+
+.iconsContainer{
+    max-width: 120rem;
+    margin: auto;
+}
+
+/* .iconsBody{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0rem 2rem;
+    gap: 1rem;
+} */
+
+.cardBoxIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.cardHeaderIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
     
   .copyBox p{
       text-align: center;
       font-family: "Nunito Sans", serif;
       font-weight:400;
-      font-size: 20px;
+      font-size: 16px;
   }
   
   .copyBox span{
